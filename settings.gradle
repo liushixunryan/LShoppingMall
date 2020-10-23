@@ -1,0 +1,3 @@
+include ':mailLibrary'
+include ':app'
+rootProject.name = "KotlinTest"
