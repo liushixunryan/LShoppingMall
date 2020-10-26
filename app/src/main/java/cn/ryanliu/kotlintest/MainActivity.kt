@@ -7,6 +7,7 @@ import android.util.Log
 import cn.ryanliu.maillibrary.net.RestClient
 import cn.ryanliu.maillibrary.net.callback.IFailure
 import cn.ryanliu.maillibrary.net.callback.ISuccess
+import cn.ryanliu.maillibrary.ui.loader.LoaderStyles
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -16,6 +17,7 @@ class MainActivity : AppCompatActivity() {
         RestClient
             .builder()
             .url("index.php")
+            .loader(this@MainActivity,LoaderStyles.BallBeatIndicator)
             .success(object : ISuccess {
                 override fun onSuccess(response: String) {
                     Log.i("it520", response)
