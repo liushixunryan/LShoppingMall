@@ -1,7 +1,6 @@
 package cn.ryanliu.maillibrary.fragment
 
 import android.widget.Toast
-import com.blankj.utilcode.util.ToastUtils
 
 abstract class MailFragment : BaseFragment() {
     private var mTouchTime: Long = 0

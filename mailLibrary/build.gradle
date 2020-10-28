@@ -40,5 +40,4 @@ dependencies {
     //工具库
     api 'com.blankj:utilcode:1.30.0'
     //Fragmentation框架
-    api 'me.yokeyword:fragmentationx:1.0.2'
-}
+    api 'me.xuexuan:fragmentationx:1.0.6'}
