@@ -40,4 +40,8 @@ dependencies {
     //工具库
     api 'com.blankj:utilcode:1.30.0'
     //Fragmentation框架
-    api 'me.xuexuan:fragmentationx:1.0.6'}
+    api 'me.xuexuan:fragmentationx:1.0.6'
+    //字体图标
+    api ('com.joanzapata.iconify:android-iconify-fontawesome:2.2.2',{exclude group : 'com.android.support'})
+    api ('com.joanzapata.iconify:android-iconify-ionicons:2.2.2',{exclude group : 'com.android.support'})
+}
